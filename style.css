@@ -1,0 +1,41 @@
+:root{
+    --bright-yellow: hsl(71, 73%, 54%);
+    --Cyan: hsl(179, 62%, 43%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Light-Gray);
+    Font-size: 16px;
+}
+main{
+    margin: 120px auto;
+    width: 90vh;
+    border-radius: 8px;
+    display: grid;
+    /* to make a grid of two rows  */
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+.intro-body {
+    background-color: white;
+    grid-area: 1 / 1 / span1 / span2 ;
+    border-radius: 8px 8px 0 0;
+}
+.intro-content > h2{
+    color: var(--Cyan);
+}
+.intro-content > h3{
+    color: var(--bright-yellow);
+}
+.intro-content > p{
+    color: var(--Grayish-Blue);
+}
+.intro-content{
+    margin-left: 2vw;
+}
+.purches{
+    background-color: var(--Cyan);
+    padding: auto;
+}
