@@ -22,6 +22,7 @@ main{
     background-color: white;
     grid-area: 1 / 1 / span1 / span2 ;
     border-radius: 8px 8px 0 0;
+    padding: 6px;
 }
 .intro-content > h2{
     color: var(--Cyan);
@@ -37,5 +38,64 @@ main{
 }
 .purches{
     background-color: var(--Cyan);
-    padding: auto;
+    border-radius: 0 0 0 8px;
+    
+}
+.purches-cont{
+    padding: 6px;
+    margin: 15px 15px auto;
+    color:var(--Light-Gray);
+}
+.price{
+    font-size: xx-large;
+}
+.month{
+    font-size: 12px;
+    color: var(--Light-Gray);
+}
+.sign{
+    background-color: var(--bright-yellow);
+    color: var(--Light-Gray);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 3px ;
+    border: transparent;
+    margin: 20px auto;
+}
+.sign:hover{
+    cursor :pointer;
+}
+.whyus{
+    background-color: var(--Cyan);
+    color: var(--Light-Gray);
+    opacity: 0.9;
+    border-radius: 0 0 8px 0;
+}
+.whyus-cont{
+    margin: 8px 65px 8px 35px;
+}
+.whyus-cont > p{
+    font-size: 15px;
+    opacity: 0.8;
+    padding: 8px 0 8px;
+}
+@media screen and (max-width: 600px) {
+    main{
+        display:contents;
+        margin: 25px 25px auto;
+    }
+    .intro-body{
+        margin: 0px 30px auto;
+    }
+    .purches{
+        margin: 0px 19px auto;
+        padding: 20px;
+        border-radius: 0;
+    }
+    .whyus{
+        margin: 0;
+        padding: 8px;
+        margin: 0px 19px auto;
+        border-radius: 0 0 8px 8px ;
+    }
 }
