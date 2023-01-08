@@ -83,19 +83,22 @@ main{
     main{
         display:contents;
         margin: 25px 25px auto;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        min-height: 100vh;
     }
     .intro-body{
-        margin: 0px 30px auto;
+        margin: 0px 25px auto;
     }
     .purches{
-        margin: 0px 19px auto;
+        margin: 0px 25px auto;
         padding: 20px;
         border-radius: 0;
     }
     .whyus{
         margin: 0;
         padding: 8px;
-        margin: 0px 19px auto;
+        margin: 0px 25px auto;
         border-radius: 0 0 8px 8px ;
     }
 }
